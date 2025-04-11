@@ -1,0 +1,104 @@
+#TechZone{
+    background-color: rgb(189, 189, 189);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+
+.em-title{
+    font-weight: bolder;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.em-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.em-image{
+    width: 80%;
+    padding-left: 20%;
+}
+
+.firstArticle{
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.secondArticle{
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.thirdArticle{
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.topnav{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(99, 99, 99);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color: #000000;
+    color: white;
+  }
+
+a:hover{
+    size: 10%;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #717171;
+  }
+
+  footer{
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+    position: relative;
+    height: 20px;
+    margin-top: 100px;
+    clear: both;
+    text-transform: capitalize;
+  }
